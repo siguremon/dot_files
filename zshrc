@@ -20,7 +20,7 @@ RPROMPT="%{$fg_bold[white]%}[%{$reset_color%}%{$fg[cyan]%}%~%{$reset_color%}%{$f
 SPROMPT="%{$fg_bold[red]%}correct%{$reset_color%}: %R -> %r ? "
 
 autoload -Uz compinit
-ncompinit
+compinit
 
 setopt auto_cd
 setopt auto_pushd
